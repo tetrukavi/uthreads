@@ -1,0 +1,69 @@
+tetrukavi, lironbehar
+avi tetruk (205419377), liron behar (206019069)
+EX: 2
+
+FILES:
+uthreads.cpp
+Thread.cpp
+Thread.h
+
+
+REMARKS:
+enjoy our project!!
+
+
+ANSWERS:
+
+Q1:
+One general use of user-level thread can be in implementing an interceptor missile.
+user-level threads are a reasonable choice for those kind of missiles, because of two main reasons:
+1) Saving time - when interceptor missile needs to intercept its enemy, the time factor is critical,
+and everything need to be execute as fast as it can. User level threads are much faster than kernel level threads,
+because user level threads are handled in user space and avoid kernel context switching penalties.
+
+2) Accuracy - The user is managing the context switching and decided them respectively to his needs according to the
+program flow and the situation of the missile.
+
+
+Q2:
+The advantages of creating the new process (instead of creating kernel-level thread) are:
+ - Process is isolated with its own virtual address space - in browsers its necessary from security reasons and to
+   avoid code and data sharing.
+ - Using processes allows each computation to execute with its own virtual machine, allowing computations to
+  be independent.
+ - Processes can run on different machines, unlike threads that have to run on the same machine.
+ - Processes can create multi-threads (user level threads) inside each process in order to calculate a few tasks faster.
+
+The disadvantages of creating the new process are:
+- It is high overhead - they are expensive in resources and time, and hog up memory.
+- If there are a user-level threads implementation in the process, if one of them is getting block - all of the
+  process is getting blocked.
+
+
+Q3:
+
+When we are writing on the keyboard, interrupts occur - those interrupts cause to what is typed to appear
+(another interrupt to the screen) in the shell.
+
+The "kill pid" command invokes the system call kill():
+Kill is a command used to send a signal to a process. By default, the message sent is the termination signal,
+which requests that the process exit.
+There are many different signals that can be sent , although the signals mostly sent are SIGTERM ("terminate")
+and SIGKILL ("kill"):
+The default signal sent is SIGTERM (like in our exercise). Programs that handle this signal can do useful cleanup
+operations (such as saving configuration information to a file) before quitting,
+and SIGKILL will kill the process without any consideration regarding the processes state.
+
+
+Q4:
+The difference between ‘real’ and ‘virtual’ time is that virtual time is the running time of the active process,
+that can be measured and to be counted not in 'real' time - the physical time. Real time is continuous and counted
+always, opposite to the virtual time.
+Virtual example - when we want to measure the time of a single game and we take a brake from it. When we get back
+to playing, the timer will continue to count the time from the stopped time.
+Real example - the clock in a standard computer that utilises a 'real' time timer that keeps counting the
+time always.
+
+
+
+

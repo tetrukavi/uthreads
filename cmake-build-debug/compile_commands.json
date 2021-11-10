@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/cs/usr/tetrukavi/CLionProjects/OS_ex2/cmake-build-debug",
+  "command": "/usr/bin/c++   -I/cs/usr/tetrukavi/CLionProjects/OS_ex2/.. -isystem /cs/usr/tetrukavi/CLionProjects/OS_ex2/cmake-build-debug/googletest-src/googletest/include -isystem /cs/usr/tetrukavi/CLionProjects/OS_ex2/cmake-build-debug/googletest-src/googletest  -g   -Wall -Wextra -std=gnu++11 -o CMakeFiles/theTests.dir/tests_to_be_ran_separately.cpp.o -c /cs/usr/tetrukavi/CLionProjects/OS_ex2/tests_to_be_ran_separately.cpp",
+  "file": "/cs/usr/tetrukavi/CLionProjects/OS_ex2/tests_to_be_ran_separately.cpp"
+},
+{
+  "directory": "/cs/usr/tetrukavi/CLionProjects/OS_ex2/cmake-build-debug",
+  "command": "/usr/bin/c++   -I/cs/usr/tetrukavi/CLionProjects/OS_ex2/.. -isystem /cs/usr/tetrukavi/CLionProjects/OS_ex2/cmake-build-debug/googletest-src/googletest/include -isystem /cs/usr/tetrukavi/CLionProjects/OS_ex2/cmake-build-debug/googletest-src/googletest  -g   -Wall -Wextra -std=gnu++11 -o CMakeFiles/theTests.dir/uthreads.cpp.o -c /cs/usr/tetrukavi/CLionProjects/OS_ex2/uthreads.cpp",
+  "file": "/cs/usr/tetrukavi/CLionProjects/OS_ex2/uthreads.cpp"
+},
+{
+  "directory": "/cs/usr/tetrukavi/CLionProjects/OS_ex2/cmake-build-debug",
+  "command": "/usr/bin/c++   -I/cs/usr/tetrukavi/CLionProjects/OS_ex2/.. -isystem /cs/usr/tetrukavi/CLionProjects/OS_ex2/cmake-build-debug/googletest-src/googletest/include -isystem /cs/usr/tetrukavi/CLionProjects/OS_ex2/cmake-build-debug/googletest-src/googletest  -g   -Wall -Wextra -std=gnu++11 -o CMakeFiles/theTests.dir/Thread.cpp.o -c /cs/usr/tetrukavi/CLionProjects/OS_ex2/Thread.cpp",
+  "file": "/cs/usr/tetrukavi/CLionProjects/OS_ex2/Thread.cpp"
+}
+]
